@@ -1,0 +1,300 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>voter-verification</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+</head>
+<body>
+    <div class="container-fluid">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
+            <div class="container-lg">
+              <a class="navbar-brand" href="inecdemo.html">
+                <img src="pics/inec logo.png" alt="welcome">
+              </a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#offers" aria-controls="offers" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse justify-content-end align-center" id="offers">
+                <div class="navbar-nav ">
+                  <a class="nav-link  fw-light" aria-current="page" href="#"> CVR PORTAL</a>
+                  <a href="#" class="nav-link fw-light">Book Appointment </a>
+                </div>
+              </div>
+           </div>   
+        </nav>
+    </div>
+    <br>
+    <!--table-->
+    <div class="wrapper">
+        <br>
+        <div class="row container-fluid">
+            <div class="col-md-4">
+                <div class="card border-0 shadow  rounded">
+                    <div class="card-body">
+                        <div class="container-fluid">
+                            <h3>CVR LIVE LOCATOR</h3>
+                            <p>Find realtime locations of registration centres for Continuous Voters Registration.</p>
+                            <div class="card">
+                                <div class="card-body container-fluid">
+                                    <h4 class="text-success">Find CVR Center</h4>
+                                    <form>
+                                        <div class="input text">
+                                            <label for="state">State</label>
+                                            <select name="state" id="searchstate" class="form-control" required>
+                                                <option value>Select State</option>
+                                                <option value="1">Abia</option>
+                                                <option value="2">Adamawa</option>
+                                                <option value="3">Akwa Ibom</option>
+                                                <option value="4">Anambra</option>
+                                                <option value="5">Bauchi</option>
+                                                <option value="6">Bayelsa</option>
+                                                <option value="7">Benue</option>
+                                                <option value="8">Borno</option>
+                                                <option value="9">Crossriver</option>
+                                                <option value="10">Delta</option>
+                                                <option value="11">Ebonyi</option>
+                                                <option value="12">Edo</option>
+                                                <option value="13">Ekiti</option>
+                                                <option value="14">Enugu</option>
+                                                <option value="15">FCT</option>
+                                                <option value="16">Gombe</option>
+                                                <option value="17">Imo</option>
+                                                <option value="18">Jigawa</option>
+                                                <option value="19">Kaduna</option>
+                                                <option value="20">Kano</option>
+                                                <option value="21">Katsina</option>
+                                                <option value="22">Kebbi</option>
+                                                <option value="23">Kogi</option>
+                                                <option value="24">Kwara</option>
+                                                <option value="25">Lagos</option>
+                                                <option value="26">Nasarawa</option>
+                                                <option value="27">Niger</option>
+                                                <option value="28">Ogun</option>
+                                                <option value="29">Ondo</option>
+                                                <option value="30">Osun</option>
+                                                <option value="31">Oyo</option>
+                                                <option value="32">Plateau</option>
+                                                <option value="33">Rivers</option>
+                                                <option value="34">Sokoto</option>
+                                                <option value="35">Taraba</option>
+                                                <option value="36">Yobe</option>
+                                                <option value="37">Zamfara</option>
+                                            </select>
+                                        </div>
+                                        <br>
+                                        <div class="input text">
+                                            <label for="Localgovt">Local Government</label>
+                                            <select name="Localgovt" id="localgovt" class="form-control" required>
+                                                <option value=""></option>
+                                            </select>
+                                        </div>
+                                        <br>
+                                        <div class="submit">
+                                            <input type="submit" class="btn block btn-success btn-block" value="search">
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                            <h5>NOTE:</h5>
+                            <ul>
+                                <li><small>There are two types of registration centres - Stationary/Fixed Centres And Mobile Centres.</small></li>
+                                <br>
+                               <li><small>There are registration centres in every INEC State Headquarters and INEC Local Government Office. These are stationary.</small>
+                               </li>
+                               <br>
+                               <li><small>The mobile centres will move from one location to the other within specific dates and times for every ward. Find the dates and times for your location using this site</small></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-8">
+                <div class="card border-0 shadow bg-body rounded">
+                    <div class="card-body">
+                        <h5>Active CVR Centers</h5>
+                        <hr>
+                        <table class="table table-striped table-bordered    table-responsive-lg">
+                            <tbody>
+                                <tr>
+                                    <th width="5">#</th>
+                                    <th>State</th>
+                                    <th>LGA</th>
+                                    <th width="300">Address</th>
+                                    <th>Date</th>
+                                </tr>
+                                <tr class="">
+                                    <td>1.</td>
+                                    <td>RIVERS</td>
+                                    <td>TAI</td>
+                                    <td><a href="#" class="text-decoration-none fw-light"> TAI INEC OFFICE, Inside Tai Local Government Council Secretariat, Saakpenwa-Bori Road, Saakpenwa., RIVERS</a></td>
+                                    <td>April 11 to June 30</td>
+                                </tr>
+                                <tr>
+                                    <td>2.</td>
+                                    <td>KANO</td>
+                                    <td>DANBATA</td>
+                                    <td><a href="#" class="text-decoration-none fw-light">SAIDAWA PRI SCH.</a></td>
+                                    <td>June 22 to June 24</td>
+                                </tr>
+                                <tr>
+                                    <td>3.</td>
+                                    <td>KATSINA</td>
+                                    <td>Matazu</td>
+                                    <td><a href="#" class="text-decoration-none fw-light">MATAZU INEC OFFICE, Along the road to Matazu LGA Secretariat,Matazu. Katsina</a></td>
+                                    <td>April 11 to June 30</td>
+                                </tr>
+                                <tr>
+                                    <td>4.</td>
+                                    <td>KEBBI</td>
+                                    <td>jega</td>
+                                    <td><a href="#" class="text-decoration-none fw-light">Jega Inec office, behind cinema, jega Kebbi</a></td>
+                                    <td>April 11 to June 30</td>
+                                </tr>
+                                <tr>
+                                    <td>5.</td>
+                                    <td>PLATEAU</td>
+                                    <td>JOS NORTH</td>
+                                    <td><a href="#" class="text-decoration-none fw-light">JOS NORTH INEC OFFICE, NO. 4 SYLVESTER JABO CLOSE, OFF APOLLO CRESCENT, TUDUN WADA GRA JOS, PLATEAU</a></td>
+                                    <td>April 11 to June 30</td>
+                                </tr>
+                                <tr>
+                                    <td>6.</td>
+                                    <td>KANO</td>
+                                    <td>UNGOGO</td>
+                                    <td><a href="#" class="text-decoration-none fw-light">UNGOGO INEC OFFICE, ADJACENT TO UNGOGO ISLAMIC CENTRE, KANO</a></td>
+                                    <td>April 11 to June 30</td>
+                                </tr>
+                                <tr>
+                                    <td>7.</td>
+                                    <td>DELTA</td>
+                                    <td>WARRI SOUTH</td>
+                                    <td><a href="#" class="text-decoration-none fw-light">WARRI SOUTH INEC OFFICE, ESISI ROAD, GRA, WARRI, DELTA</a></td>
+                                    <td>April 11 to June 30</td>
+                                </tr>
+                                <tr>
+                                    <td>8.</td>
+                                    <td>ABIA</td>
+                                    <td>UKWA WEST</td>
+                                    <td><a href="#" class="text-decoration-none fw-light">UKWA WEST INEC OFFICE, INSIDE UKWA WEST LGA HEADQUATERS OKEIKPE, ABIA</a></td>
+                                    <td>April 11 to June 30</td>
+                                </tr>
+                                <tr>
+                                    <td>9.</td>
+                                    <td>ONDO</td>
+                                    <td>ESE-ODO</td>
+                                    <td><a href="#" class="text-decoration-none fw-light">ESE-ODO INEC OFFICE, INFRONT OF LG CHAIRMAN'S QUARTERS, IGBEKEBO, ONDO</a></td>
+                                    <td>April 11 to June 30</td>
+                                </tr>
+                                <tr>
+                                    <td>10.</td>
+                                    <td>BAUCHI</td>
+                                    <td>WARJI</td>
+                                    <td><a href="#" class="text-decoration-none fw-light">WARJI INEC OFFICE, UNGUWAR GANDU (MAKERA) OPP. WARJI MICRO-FINANCE BANK, WARJI, BAUCHI</a></td>
+                                    <td>April 11 to June 30</td>
+                                </tr>
+                                <tr>
+                                    <td>11.</td>
+                                    <td>BENUE</td>
+                                    <td>GWER WEST</td>
+                                    <td><a href="#" class="text-decoration-none fw-light">GWER WEST INEC OFFICE, AGAGBE ROAD, OFF UCHA AGBADI WAY, BEHIND POLICE STATION, NAKA, BENUE</a></td>
+                                    <td>April 11 to June 30</td>
+                                </tr>
+                                <tr>
+                                    <td>12.</td>
+                                    <td>KOGI</td>
+                                    <td>OFU</td>
+                                    <td><a href="#" class="text-decoration-none fw-light">OFU INEC OFFICE, BEHIND LGA SECRETARIAT, GRA,UGWOLAWO, OFU LGA., KOGI</a></td>
+                                    <td>April 11 to June 30</td>
+                                </tr>
+                                <tr>
+                                    <td>13.</td>
+                                    <td>ENUGU</td>
+                                    <td></td>
+                                    <td><a href="#" class="text-decoration-none fw-light">ENUGU INEC STATE HEADQUARTERS, #5 ACHI STREET, INDEPENDENCE LAYOUT, ENUGU, ENUGU, ENUGU</a></td>
+                                    <td>April 11 to June 30</td>
+                                </tr>
+                                <tr>
+                                    <td>14.</td>
+                                    <td>YOBE</td>
+                                    <td>BADE</td>
+                                    <td><a href="#" class="text-decoration-none fw-light">BADE INEC OFFICE, NGURU ROAD, GASHUA., YOBE</a></td>
+                                    <td>April 11 to June 30</td>
+                                </tr>
+                                <tr>
+                                    <td>15.</td>
+                                    <td>KADUNA</td>
+                                    <td>KADUNA SOUTH</td>
+                                    <td><a href="#" class="text-decoration-none fw-light">L.E.A. TUDUN NUPAWA KADUNA</a></td>
+                                    <td>April 11 to June 30</td>
+                                </tr>
+                                <tr>
+                                    <td>16.</td>
+                                    <td>LAGOS</td>
+                                    <td>AGEGE</td>
+                                    <td><a href="#" class="text-decoration-none fw-light">INEC OFFICE at AGEGE</a></td>
+                                    <td>April 11 to June 30</td>
+                                </tr>
+                                <tr>
+                                    <td>17.</td>
+                                    <td>AKWA IBOM</td>
+                                    <td>EKET</td>
+                                    <td><a href="#" class="text-decoration-none fw-light">JAMES TOWN ROAD, EFFOI</a></td>
+                                    <td>June 27 to June 30</td>
+                                </tr>
+                                <tr>
+                                    <td>18.</td>
+                                    <td>BORNO</td>
+                                    <td>GWOZA</td>
+                                    <td><a href="#" class="text-decoration-none fw-light">GWOZA INEC OFFICE, Along Mubi road, adjacent Gede Shopping Complex, BORNO</a></td>
+                                    <td>April 11 to June 30</td>
+                                </tr>
+                                <tr>
+                                    <td>19.</td>
+                                    <td>SOKOTO</td>
+                                    <td>TURETA</td>
+                                    <td><a href="#" class="text-decoration-none fw-light">TURETA INEC OFFICE, OPP. POLICE STATION, ALU QUARTERS, TURETA GARI TOWN., SOKOTO</a></td>
+                                    <td>April 11 to June 30</td>
+                                </tr>
+                                <tr>
+                                    <td>20.</td>
+                                    <td>GOMBE</td>
+                                    <td>GALANGA</td>
+                                    <td><a href="#" class="text-decoration-none fw-light">BALANGA INEC OFFICE, ADJACENT TO POLICE STATION TALASSE BALANGA. OPPOSITE POLICE STATION BAMBAM (SUB-OFFICE), GOMBE</a></td>
+                                    <td>April 11 to June 30</td>
+                                </tr>
+
+                                <td colspan="12" class="text-center p-3">
+                                   <a href="#" class="btn btn-primary">check other centers</a>
+                                </td>
+
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br>
+    <br>
+    <br>
+    <hr>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8">
+               <p class="fw-light"><small>CVR LIVE LOCATOR</small></p> 
+            </div>
+            <div class="col-md-4">
+                <a href="#" class="fw-light text-decoration-none"><small>Terms&Conditions</small></a>|<a href="#" class="fw-light text-decoration-none">Privacy Policy</a>
+            </div>
+
+        </div>
+
+        
+    </div>
+
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

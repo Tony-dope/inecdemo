@@ -1,0 +1,146 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>register.inec</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="icon pack/bootstrap-icons-1.8.3/bootstrap-icons.css">
+</head>
+<body class="container-fluid">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
+        <div class="container-lg">
+          <a class="navbar-brand" href="inecdemo.html">
+            <img src="pics/inec logo.png" alt="welcome">
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#offers" aria-controls="offers" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse justify-content-end align-center" id="offers">
+            <div class="navbar-nav ">
+              <a class="nav-link active" aria-current="page" href="inecdemo.html"> <strong>Home</strong></a>
+              <a class="nav-link" href="#"><strong>Registration Centers</strong></a>
+              <a href="#help" class="nav-link"><strong>Help ?</strong> </a>
+            </div>
+          </div>
+       </div>   
+    </nav>
+    
+    <section class=" bg-danger my-4 text-light">
+        <div>
+            <h5>Important Notice</h5>
+            <ol class="p-3 m-3">
+                <li>The ongoing Continuous Voter Registration (CVR) exercise ends by 30th June 2022.</li>
+                <br>
+                <li>This will enable the Commission to clean up the registration data, print the Permanent Voters' Cards (PVCs) and compile the register ahead of the 2023 General Elections.</li>
+                <br>
+                <li>Online registration ends 30th May 2022. You must complete your application and schedule your appointment for biometric capture before then.</li>
+            </ol>
+        </div>
+   </section>
+       <div class="bg-light">
+          <h4 class="m-4">Portal Account</h4>
+          <p class="m-4">Your use of this portal means that you accept the <a href="#" class="text-decoration-none">Terms & Conditions</a>. To continue, please use the form below to create your account or log in if you already have a Portal Account.</p>
+       </div>
+    <hr>
+    <section class="bg-light">
+      <div class="row">
+        <div class="col-lg-6 col-md-12">
+          <div class="card">
+            <div class="card-body">
+              <h5>Sign up or Log in with social media</h5>
+              <div class=" justify-content-center align-content-center py-5 px-5 mx-5">
+                <a href="https://accounts.google.com"><img src="pics/google button.jpg" alt="pic" class="img-fluid"></a>
+              </div>
+            </div>
+          </div>
+          <div class="card my-4">
+            <div class="card-body">
+              <h4>Log in with Email</h4>
+              <p>Log in Here if you already a Portal Account</p>
+              <div class="mb-3 p-1">
+                <label for="exampleFormControlInput1" class="form-label">Email address</label>
+                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com" required>
+              </div>
+              <div class="mb-3 p-1">
+                <label for="inputPassword" class="col-form-label">Password</label>
+                <input type="password" class="form-control" id="inputPassword" required>
+                <div class="ms-5 my-3 ps-5 justify-content-center align-content-center">
+                  <input class="btn btn-primary" type="submit" value="Submit">
+                </div>
+              
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6 col-md-12">
+          <div class="card">
+            <div class="card-body">
+              <h4>New Portal User</h4>
+              <p>Create a Portal Account to continue</p>
+              <div class="row">
+                <div class="input text">
+                   <label for="firstname">First Name <i class="required-asterisk text-danger">*</i></label>
+                   <input type="text" name="firstname" maxlength="100" minlength="2" id="firstname" class="form-control" required>
+                </div>
+                <br><br><br>
+                <div class="input text">
+                    <label for="surname">Surname/Lastname <i class="required-asterisk text-danger">*</i></label>
+                    <input type="text" name="surname" id="surname" class="form-control" maxlength="100" minlength="2" required>
+                </div>
+                <br><br><br>
+                <div class="input text">
+                  <label for="mobile">Mobile Number <i class="required-asterisk text-danger">*</i></label>
+                  <input type="number" name="mobile-no" id="mobile-no" class="form-control" minlength="11" maxlength="11" required>
+                </div>
+                <br><br><br>
+                <div class="input email">
+                  <label for="email">Email <i class="required-asterisk text-danger">*</i></label>
+                  <input type="email" name="email" id="email" class="form-control" maxlength="100" required>
+                </div>
+                <br><br><br>
+                <div class="input text">
+                  <label for="confirmemail">Confirm Email <i class="required-asterisk text-danger">*</i></label>
+                  <input type="email" name="confirmemail" id="confirmemail" class="form-control" maxlength="100" required>
+                </div>
+                <br><br><br>
+                <div class="input password">
+                  <label for="password">password <i class="required-asterisk text-danger">*</i></label>
+                  <input type="password" name="password" id="password" class="form-control" maxlength="50" minlength="5" required>
+                </div>
+                <br><br><br>
+                <div class="submit">
+                  <input class="btn btn-info" type="submit" value="continue">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <hr>
+    <footer class=" footer text-center text-sm-start">
+        <div class="container">
+          <div class="row py-4">
+            <div class="col-md-6 ">
+             <small>INEC Continous Voter Registration Portal</small>
+            </div>
+            <div class="col-md-6 text-right">
+              <a href="#" class="text-decoration-none"><small>Terms & Conditions </small></a>
+              /
+              <a href="#" class="text-decoration-none"><small>Privacy Policy</small></a>
+            </div>
+          </div>
+        </div>
+    </footer>
+  
+
+    
+    
+
+
+
+
+  <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
